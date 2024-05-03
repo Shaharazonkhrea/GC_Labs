@@ -1,0 +1,24 @@
+body {
+    font-family: 'Nanum Brush Script', cursive;
+    background-color: #ccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Seaweed Script', cursive;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto; 
+    background-color: white; 
+    padding: 20px; 
+}
+
+.photo {
+    border: 1px solid #ddd; 
+    box-shadow: 2px 2px 4px #999; 
+}
+
+.caption {
+    color: #333; 
+}
