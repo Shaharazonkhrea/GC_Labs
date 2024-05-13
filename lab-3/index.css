@@ -3,18 +3,49 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9fafc;
-    
 }
 
-.navigation li {
+.container {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.content {
+    padding: 20px;
+}
+
+.nav-list2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
     list-style-type: none;
-    padding: 0;
-    text-align: left;
 }
 
-.nav-list li {
-    display: inline;
-    margin-right: 20px;
+.hire-button {
+    padding: 5px;
+    width: 75px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+    list-style-type: none;
 }
 
 button {
@@ -34,11 +65,57 @@ a {
     color: #69696a;
 }
 
-.footer {
+footer {
     position: fixed;
-    width: 100%;
+    width: calc(100% + 5px);
     bottom: 0;
     padding: 20px;
     background-color: rgba(247, 193, 162, 0.7);
     box-sizing: border-box;
+    left: -5px;
 }
+
+.circles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 20px; 
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.largest {
+    background-color: rgba(247, 136, 167, 0.6);
+    width: 200px;
+    height: 200px;
+    top: 20%;
+    right: 100px;
+}
+
+.medium {
+    background-color: rgba(247, 193, 162, 0.7);
+    width: 150px;
+    height: 150px;
+    top: 40%;
+    right: 50px;
+}
+
+.smallest {
+    background-color: rgba(207, 130, 213, 0.6);
+    width: 100px;
+    height: 100px;
+    top: 30%;
+    right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .circles-container {
+        display: none;
+    }
+}
+
+
