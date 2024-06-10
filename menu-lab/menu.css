@@ -1,0 +1,50 @@
+.hidden {
+    display: none;
+}
+
+#menu {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+#menu a {
+    display: block;
+    margin: 5px 0;.hidden {
+        display: none;
+    }
+    
+    #menu {
+        margin-top: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: #f9f9f9;
+    }
+    
+    #menu a {
+        display: block;
+        margin: 5px 0;
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+    #menu a:hover {
+        text-decoration: underline;
+    }
+    
+    #content {
+        margin-top: 20px;
+    }
+    
+    color: #007bff;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    margin-top: 20px;
+}
